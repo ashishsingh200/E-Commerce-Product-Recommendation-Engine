@@ -16,6 +16,9 @@ This project performs sentiment analysis on the Amazon Fine Food Reviews dataset
   - Negative: Scores of 1 or 2
   - Neutral: Score of 3 (excluded)
 
+- **Data Link**:
+  - [Raw_Data](https://drive.google.com/file/d/1yKiBNTl81LpSls0DcRYdvr-vvPDi0sE6/view?usp=drive_link)
+
 ## Project Structure
 
 ```
@@ -98,6 +101,16 @@ It includes:
 - 📊 Visualizations like review trends and product rankings.
 
 - 🤖 A recommendation model using Gradio to display results interactively.
+
+### Sample UI(Recommendation Interface)
+![Sample UI](result/img_result01.png)
+
+### Top 5 Product Recommendations(Valid User ID)
+![Sample UI](result/img_result02.png)
+
+### Error Handling(Invalid User ID)
+![Sample UI](result/img_result03.png)
+
 
 ## Acknowledgments
 
