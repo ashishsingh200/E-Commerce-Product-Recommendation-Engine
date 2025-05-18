@@ -14,4 +14,4 @@ __pycache__/
 ##Removing the following files and directories
 .gradio/
 # Ignore all files in the data directory
-data/preprocessed_data/*
+data/

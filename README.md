@@ -78,7 +78,26 @@ This project performs sentiment analysis on the Amazon Fine Food Reviews dataset
 
 ## Results
 
-The best-performing model (Custom Embeddings) achieved a test set accuracy of approximately 94.92%. The model effectively classifies reviews as positive or negative, providing insights into customer sentiment. For detailed results, refer to notebooks/Sentiment_Analysis_Model.ipynb.
+The best-performing model (Custom Embeddings) achieved a test set accuracy of approximately 94.92%. The model effectively recommends top 5 products based on user data, providing insights into customer sentiment. For detailed results, refer to notebooks/Sentiment_Analysis_Model.ipynb.
+
+## 📊 Data Insights
+
+### Review Over Time
+![Review Over Time](assets/Review_Over_Time_Graph.jpg)
+
+### Top 10 Products by Review Count
+![Top 10 Products](assets/Top10_Products_By_Review_Count.png)
+
+### Sentiment Distribution
+![Sentiment Distribution](assets/sentiment_distribution_plot.png)
+
+## 📘 Project Summary
+
+This project analyzes product reviews and builds a simple recommendation system.  
+It includes:
+- 📊 Visualizations like review trends and product rankings.
+
+- 🤖 A recommendation model using Gradio to display results interactively.
 
 ## Acknowledgments
 
