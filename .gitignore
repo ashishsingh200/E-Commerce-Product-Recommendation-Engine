@@ -9,3 +9,10 @@ __pycache__/
 *.pyc
 # Jupyter Notebook metadata
 *.nbconvert.ipynb
+
+
+##Removing the following files and directories
+.gradio/
+src/
+# Ignore all files in the data directory
+
